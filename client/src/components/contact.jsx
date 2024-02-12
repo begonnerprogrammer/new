@@ -14,7 +14,7 @@ const [massage,setMassage]=useState("");
 const navigate=useNavigate();
   const submit=async(e)=>{
     e.preventDefault();
-    const res=await fetch('https://new-backend-inky.vercel.app/contact',{
+    const res=await fetch('https://new-backend-inky.vercel.app/http://localhost:4000/contact',{
   
       //rrules to write
       method:"POST",
