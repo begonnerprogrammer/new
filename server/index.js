@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors())
 app.use(cors({
-    origin:["https://deploy-mern-1whq-vercel-app"],
+    origin:["https://new-frint-end.vercel.app"],
     methods:["POST","GET"],
    credentials:true
 }))
