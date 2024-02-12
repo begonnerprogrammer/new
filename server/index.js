@@ -12,7 +12,6 @@ const router=require("./src/router/route")
 const PostModel =require("./src/schema/postmodel")
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors())
 app.use(cors({
     origin:["https://new-frint-end.vercel.app"],
     methods:["POST","GET"],
